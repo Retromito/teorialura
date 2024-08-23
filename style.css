@@ -1,0 +1,83 @@
+@charset "UTF-8";
+
+body {
+    background-color: #111111;;
+    margin: 0px;
+    color: white;
+    background-image: url(https://store-images.s-microsoft.com/image/apps.27998.14319236246610425.66fb0c70-79cc-471f-8a96-e56f4d317469.768e364a-76d9-473e-a1c8-c602e834dfdd?q=90&w=480&h=270); 
+    background-size: 100%;
+    position: absolute;
+    z-index: 999;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    font-size: 45px;
+    color: white;
+}
+p {
+    margin-top: -41px;
+    color: white;
+    padding-right: 10px;
+}
+
+header {
+    border-bottom: solid 5px #e60a0a; 
+    color: #ff0000;
+    background-color: black;
+    padding: 20px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    text-align: center;
+    font-size: 32px;
+    font-family:"Papyrus";
+}
+
+
+
+div {
+    margin-right: 20px;
+}
+
+/* Classes */ 
+
+.chamada {
+    background-color: #1c1a1a77;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+.chamada-texto {
+    margin: 5%;
+}
+
+.categoria-videos {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+.categoria-videos img {
+    opacity: 0.5;
+    height: 200px;
+}
+
+.categoria-videos img:hover {
+    opacity: 1;
+    border: 1px solid red;
+}
+
+.categoria {
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+  }
